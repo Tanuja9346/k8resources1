@@ -6,7 +6,7 @@ spec:
   containers:
   - name: nginx
     image: nginx
-    imagePullPolicy: Always
+    imagePullPolicy: Always  # dont mention this it will run privious image.
     resources:
       requests:
         cpu: "100m"
